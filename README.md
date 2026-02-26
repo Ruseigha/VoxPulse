@@ -1,2 +1,12 @@
-# VoxPulse
-VoxPulse is a real-time public polling and trivia mobile app where users create multiple-choice polls and watch live results update instantly—no login required. Built to demonstrate a production-grade stack with a mobile frontend, serverless backend, cloud infrastructure, and database deployed on AWS.
+# ⚡ VoxPulse
+
+A real-time public trivia and polling app built with:
+- **Terraform** — AWS infrastructure
+- **Go** — Serverless Lambda backend
+- **AWS** (Lambda, API Gateway, DynamoDB) — Free tier
+- **Expo React Native** — Mobile app
+
+## Quick Start
+1. `cd infrastructure && terraform init && terraform apply`
+2. `cd backend && make deploy`
+3. `cd mobile && npx expo start`
